@@ -35,7 +35,7 @@ const handleEvent = async (event) => {
   await notion.pages.create({
     parent: { database_id: databaseId },
     properties: {
-      SenderID: {
+      Name: {
         title: [
           {
             type: "text",
